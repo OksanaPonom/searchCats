@@ -23,7 +23,7 @@ export async function markupInfoCat(id) {
   info.innerHTML = '';
   const catInfo = await fetchCatByBreedHandler(id);
 
-  const markup = `  <img src="${catInfo.url}" alt="" width=400/>
+  const markup = `  <img src="${catInfo.url}" alt="${catInfo.breeds[0].name}" width=400/>
       <div class="wrap">
         <h1>${catInfo.breeds[0].name}</h1>
         <p>${catInfo.breeds[0].description}</p>
