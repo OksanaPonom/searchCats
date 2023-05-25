@@ -2,7 +2,7 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://OksanaPonom.github.io/searchCats",
+  "homepage": "https://oksanaponom.github.io/searchCats",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /searchCats/"
