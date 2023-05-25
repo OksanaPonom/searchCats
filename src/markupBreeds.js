@@ -5,8 +5,6 @@ import {
 import { select, info } from '.';
 import SlimSelect from 'slim-select';
 
-const info = document.querySelector('.cat-info');
-
 export async function markupBreeds() {
   const array = await fetchBreedsHandler();
   const markup = array
